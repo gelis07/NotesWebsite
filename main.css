@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+body{
+    background-color: #253031;
+}
+#Notes{
+    font-family: rubik;
+    display: flex;
+    color: #2978A0;
+    justify-content: center;
+    font-size: 3vw;
+}
+.Text{
+    display: flex;
+    justify-content: center;
+}
+#Load{
+    display: none;
+}
+label{
+    border: none;
+    border-radius: 5px;
+    width: 5%;
+    font-family: rubik;
+    background-color: #315659;
+    color: #A19267;
+    height: 5vh;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#TextArea{
+    background-color: #315659;
+    color: #A19267;
+    border-radius: 27px;
+    padding: 20px 20px 0px 20px;
+    width: 90%;
+    outline: none;
+    border: none;
+    resize: none;
+    font-family: rubik;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px;
+}
+.buttons button{
+    border: none;
+    border-radius: 5px;
+    width: 5%;
+    font-family: rubik;
+    background-color: #315659;
+    color: #A19267;
+    height: 5vh;
+    cursor: pointer;
+}
+.buttons label + button{
+    margin-left: 20px;
+}
+#hello{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: -1;
+    opacity: 0;
+}
+.Download{
+    display: none;
+    opacity: 0;
+    position: fixed;
+    background-color: #315659;
+    width: 50%;
+    height: 50vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 30px;
+    font-family: rubik;
+    color: #A19267;
+    transition: opacity 1s;
+    z-index: 2;
+}
+.first{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.Download label{
+    background-color: #2978A0;
+    margin-top: 25px;
+    margin-left: 30px;
+    width: 10%;
+    color: black;
+}
+
+.Options button{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 100px;
+    height: 3vh;
+    margin-top: 20px;
+    margin-left: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #2978A0;
+}
+.Download input{
+    width: 20%;
+    height: 3vh;
+    margin-top: 27px;
+    margin-left: 20px;
+    outline: none;
+    border: none;
+    background-color: #2978A0;
+    border-radius: 5px;
+    font-family: rubik;
+}
+#download1{
+    background-color: #2978A0;
+    border: none;
+    font-family: rubik;
+    cursor: pointer;
+    width: 20%;
+    height: 5vh;
+}

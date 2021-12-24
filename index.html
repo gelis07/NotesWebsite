@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <h1 id="Notes">NOTES</h1>
+    <div class="Text">
+        <textarea id="TextArea" cols="30"></textarea>
+    </div>
+    <div class="buttons">
+        <input type="file" id="Load" accept=".txt">
+        <label for="Load">
+            Load
+        </label>
+        <button onclick="OpenDownload()">Download</button>
+    </div>
+    <div class="Download" id="Download2">
+        <button id="hello" onclick="CloseDownload()"></button>
+        <div class="first">
+            <h1>Name</h1>
+            <input id="name">
+        </div>
+        <div class="first">
+            <h1>Type</h1>
+            <div class="Options">
+                <button onclick="Txt()" id="Txt">Txt</button>
+                <button onclick="Docx()" id="Docx">Docx</button>
+                <button onclick="Odf()" id="Odf">Odf</button>
+            </div>
+        </div>
+        <div class="first">
+            <button onclick="download()" id="download1">Download</button>
+        </div>
+    </div>
+</body>
+</html>
+<script src="main.js"></script>
